@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        repository: 'https://github.com/sureshdubey/SeleniumJavaAdvanceFramework'
+        repository: 'sureshdubey/SeleniumJavaAdvanceFramework'
     
     - name: Build with Maven
       run: mvn -B package --file pom.xml
