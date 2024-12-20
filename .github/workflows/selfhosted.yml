@@ -15,12 +15,4 @@ jobs:
         repository: 'sureshdubey/SeleniumJavaAdvanceFramework'
         token: ${{ secrets.GH_PAT }}
         path: 'java-framework-repo'
-    - name: install JDK
-      uses: actions/setup-java@v4.6.0
-      with:
-          distribution: 'temurin'
-          java-version: '8'
-    - name: Build with Maven
-      run:
-        source ~/.bash_profile
-        mvn -version
+
